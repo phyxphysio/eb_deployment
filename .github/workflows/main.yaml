@@ -26,3 +26,4 @@ jobs:
         version_description: "commit-sha-${{ github.sha }}"
         region: ap-southeast-2
         deployment_package: deploy.zip
+        wait_for_deployment: false
